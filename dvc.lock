@@ -37,10 +37,10 @@ stages:
       size: 33
     - path: stage_03.py
       hash: md5
-      md5: f100ee1d3c28dbb3f1c76ac8e0378069
-      size: 261
+      md5: 5799069aed9c7031be18e68460f2114c
+      size: 254
     outs:
-    - path: final_output.txt
+    - path: final.txt
       hash: md5
       md5: 1e61f1bb0f030407e1cdb07105775c9c
       size: 35

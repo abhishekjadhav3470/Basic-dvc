@@ -143,3 +143,4 @@ configs/secrets.yaml
 /final_output.txt
 /output_stage_one.txt
 /output_stage_two.txt
+/final.txt

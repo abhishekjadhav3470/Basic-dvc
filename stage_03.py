@@ -3,7 +3,7 @@
 STAGE = "Three"
 
 try:
-    with open("final_output.txt", "w") as f:
+    with open("final.txt", "w") as f:
         f.write(f"Stage {STAGE} started successfully...")
     print("Message written to final_output.txt successfully.")
 except Exception as e:

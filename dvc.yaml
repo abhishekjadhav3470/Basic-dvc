@@ -21,4 +21,4 @@ stages:
       - stage_03.py
       - output_stage_two.txt
     outs:
-      - final_output.txt
+      - final.txt
