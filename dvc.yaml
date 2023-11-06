@@ -22,3 +22,8 @@ stages:
       - output_stage_two.txt
     outs:
       - final.txt
+
+  stage_four:
+    cmd: cat output_stage_two.txt
+    deps: 
+      - final.txt
