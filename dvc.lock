@@ -1,0 +1,23 @@
+schema: '2.0'
+stages:
+  stage_one:
+    cmd: python stage_01.py
+    deps:
+    - path: stage_01.py
+      hash: md5
+      md5: b0693ae847c66b8f87871591eb4f780b
+      size: 64
+  stage_two:
+    cmd: python stage_02.py
+    deps:
+    - path: stage_02.py
+      hash: md5
+      md5: a23128138c2f680112d5276aca441764
+      size: 66
+  stage_three:
+    cmd: python stage_03.py
+    deps:
+    - path: stage_03.py
+      hash: md5
+      md5: a23128138c2f680112d5276aca441764
+      size: 66
