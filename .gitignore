@@ -145,3 +145,5 @@ configs/secrets.yaml
 /output_stage_one.txt
 /output_stage_two.txt
 /final.txt
+/artifacts.txt
+/artifacts_02.txt
